@@ -11,12 +11,12 @@ Clone o repositório em sua maquina, execute os comandos de instalação do **co
  - npm install
 
 ## Adicione suas credenciais ao arquivo .Env
-DB_CONNECTION=mysql   ***-- tipo do seu banco de dados***
-DB_HOST=127.0.0.1  ***-- o ip de instalação***
-DB_PORT=3306  ***-- a porta***
-DB_DATABASE=homestead ***-- o nome do banco***
-DB_USERNAME=homestead  ***-- o usuário, geralmente é root***
-DB_PASSWORD=secret ***-- a senha do banco, em local host costuma estar vazia.***
+- DB_CONNECTION=mysql   ***-- tipo do seu banco de dados***
+- DB_HOST=127.0.0.1  ***-- o ip de instalação***
+- DB_PORT=3306  ***-- a porta***
+- DB_DATABASE=homestead ***-- o nome do banco***
+- DB_USERNAME=homestead  ***-- o usuário, geralmente é root***
+- DB_PASSWORD=secret ***-- a senha do banco, em local host costuma estar vazia.***
 ## Analise as classes e crie as tabelas no seu SGBD
 -- Estrutura da tabela `properties`
 DROP TABLE IF EXISTS `properties`;
