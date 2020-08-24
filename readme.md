@@ -19,6 +19,7 @@ Clone o repositório em sua maquina, execute os comandos de instalação do **co
 - DB_PASSWORD=secret ***-- a senha do banco, em local host costuma estar vazia.***
 ## Analise as classes e crie as tabelas no seu SGBD
 -- Estrutura da tabela `properties`
+-
 DROP TABLE IF EXISTS `properties`;
 CREATE TABLE IF NOT EXISTS `properties` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
